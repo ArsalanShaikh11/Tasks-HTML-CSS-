@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <title>Grid</title>
+    <style>
+      .a {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      }
+      .b{
+        background-color: lightblue;
+        height: 300px;
+      }
+      .c{
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      <div class="b">1</div>
+      <div class="c">2</div>
+      <div class="b">3</div>
+      <div class="b">4</div>
+      <div class="c">5</div>
+      <div class="b">6</div>
+    </div>
+  </body>
+</html>

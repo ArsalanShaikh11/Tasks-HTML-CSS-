@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <title>Layout</title>
+    <style>
+      .outer {
+        width: 250px;
+        height: 500px;
+        display: inline-block;
+        margin-left: 20px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.10);
+      }
+      .img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 0px;
+      }
+      .Oliver {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 3px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+      }
+      .descrp {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        width: 170px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .profile {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        vertical-align: middle;
+      }
+      .addfriend {
+        margin-top: 20px;
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        background-color: rgb(16, 133, 201);
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 25px;
+      }
+      .a{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Outer">
+      <img src="cat.jpg" class="img" />
+      <p class="oliver">Oliver</p>
+
+      <div class="a">
+        <img src="cat.jpg" class="profile" />
+        <p class="descrp">2 mutual friends</p>
+      </div>
+      <div>
+        <button class="addfriend">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
